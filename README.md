@@ -31,12 +31,12 @@ git clone https://github.com/WoodyGray/test-task
 Контроллер предназначен для определения частоты символов у входящей строки
 
 Он имеет всего один метод:
-	```java
+	```
 	public ResponseEntity<?> getLineFrequency(@RequestBody LineRequest request)
 	```
 
 Так же есть поле сервиса:
-	```java
+	```
 	private final LineService service;
 	```
 
@@ -53,8 +53,8 @@ git clone https://github.com/WoodyGray/test-task
 ```json
 {
   "line": "aaabbbccr"
-}```
-
+}
+```
 Тело ответа (Response Body):
 
 ```json
@@ -65,7 +65,8 @@ git clone https://github.com/WoodyGray/test-task
     "c": 2,
     "r": 1
   }
-}```
+}
+```
 
 ### service
 
