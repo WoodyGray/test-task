@@ -32,7 +32,7 @@ git clone https://github.com/WoodyGray/test-task
 
 Он имеет всего один метод:
 	```
-	public ResponseEntity<?> getLineFrequency(@RequestBody LineRequest request)
+	public ResponseEntity<LineResponse> getLineFrequency(@RequestBody LineRequest request)
 	```
 
 Так же есть поле сервиса:

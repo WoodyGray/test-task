@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.dto.LineRequest;
+import com.example.demo.dto.LineResponse;
 import com.example.demo.service.LineService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +17,7 @@ public class LineController {
     private final LineService service;
 
     @PostMapping("/frequency")
-    public ResponseEntity<?> getLineFrequency(@RequestBody LineRequest request){
+    public ResponseEntity<LineResponse> getLineFrequency(@RequestBody LineRequest request){
         return service.getLineFrequency(request);
     }
 }
