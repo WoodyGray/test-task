@@ -77,15 +77,6 @@ git clone https://github.com/WoodyGray/test-task
 Оставлю свою почту для вопросов:
 	leonidrozanow228@gmail.com
 
-
-## Сборка и запуск проекта
-
-Инструкции по сборке и запуску проекта.
-
-## Часто задаваемые вопросы (FAQ)
-
-Ответы на часто задаваемые вопросы.
-
 ## Бейджи
 
 [![Generic badge](https://img.shields.io/badge/Version-1.0.0-<COLOR>.svg)](https://shields.io/)
