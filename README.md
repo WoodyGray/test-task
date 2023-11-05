@@ -18,8 +18,10 @@ git clone https://github.com/WoodyGray/test-task
 
 Проект запускается на localhost:8181
 
+Пример POST запроса в Postman:
 ![Пример POST запроса в Postman:](images/post-request.jpg)
 
+Ответ для запроса выше:
 ![Ответ для запроса выше:](images/post-response.jpg)
 
 ## Документация API
